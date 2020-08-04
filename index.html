@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Noisebridge</title>
+</head>
+<body>
+<!--
+<FireBoxRoom>
+ <Assets>
+  <AssetImage id="poster" src="img/simbridge.jpg"/>
+  <AssetImage id="black" src="img/black.png" tex_clamp="true"/>
+  <AssetObject id="monitor" src="models/BigFloor.dae.gz"/>
+  <AssetObject id="noisebridge" src="models/noisebridge.gltf" />
+  <AssetWebsurface height="900" id="music" src="https://somafm.com/player/#/now-playing/defcon" width="1200"/>
+  <AssetWebsurface height="1024" id="paint2" src="https://paradox.spyduck.net/rooms/graffiti_test/draw.html?file=noisebridge" width="1024"/>
+  <AssetWebsurface height="1024" id="paint1" src="https://paradox.spyduck.net/rooms/graffiti_test/draw.html?file=hacklab" width="1024"/>
+  <AssetWebsurface height="800" id="noisebridge" src="https://www.noisebridge.net/wiki/Noisebridge" width="480"/>
+ </Assets>
+ <Room ambient="0.3 0.3 0.3" pos="0 0.7 0" defaultlights="false" skybox_back_id="black" skybox_down_id="black" skybox_front_id="black" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" use_local_asset="room_plane" visible="false">
+  <Object id="noisebridge" js_id="A-1-1516087168" pos="20.6 0 0" scale="1.5 1.5 1.5" xdir="-1 0 -0.000004" zdir="0.000004 0 -1"/>
+  <Object collision_id="cube" id="cube" js_id="teacher-2-1516119348" pos="0 -0.33 8" scale="94 44 1" visible="false" xdir="-1 0 0.000001" ydir="-0.000001 0 -1" zdir="0 -1 0"/>
+  <Object collision_id="plane" id="plane" image_id="poster" js_id="a-1-1516180461" pos="1.16 2.58 1.11" scale="1.23 1.68 1" xdir="0 0.000001 1" ydir="0 1 -0.000001" zdir="-1 0 0"/>
+  <Object collision_id="plane" id="plane" js_id="A-3-1516180087" lighting="false" pos="1.16 2.58 2.45" scale="1.27 1.74 1" xdir="-0.017452 0.000001 0.999848" ydir="0 1 -0.000001" zdir="-0.999848 0 -0.017452"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-1-1520626253" lighting="false" pos="-18.300001 3.4 9.599999" scale="5 3.5 1" xdir="0 0.000004 -1" ydir="0 1 0.000004" zdir="1 0 0"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-2-1520626364" lighting="false" pos="12.8 2.6 0.6" scale="2.6 1.7 1" xdir="0 0 -1" ydir="-0.017452 0.999848 0" zdir="0.999848 0.017452 0"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-3-1520626415" lighting="false" pos="14.49 2.32 -2.6" scale="1.73 1.29 1" xdir="0.999391 0.0349 0" ydir="-0.0349 0.999391 0"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-5-1520626459" lighting="false" pos="16.32 2.42 -2.63" scale="1.75 1.1 1" xdir="0.999848 0.017453 0" ydir="-0.017453 0.999848 0"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-5-1520626946" lighting="false" pos="23.59 3.02 4.789999" scale="2.6 1.7 1" xdir="-0.999821 0 -0.018907" zdir="0.018907 0 -0.999821"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-8-1520627060" lighting="false" pos="21.25 3.22 4.8" scale="1.7 2.6 1" websurface_id="noisebridge" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-10-1520627120" lighting="false" pos="28.74 2.19 -1.15" scale="1.2 0.9 1" xdir="0.469471 0 0.882948" zdir="-0.882948 0 0.469471" image_id="poster" />
+  <Object collision_id="plane" id="plane" js_id="koolguy1337-12-1520627185" lighting="false" pos="21.07 2.45 -1.62" scale="1.5 0.97 1" xdir="0.965926 0.018054 -0.258189" ydir="-0 0.997564 0.069757" zdir="0.258819 -0.06738 0.963573"/>
+  <Object cull_face="none" id="monitor" js_id="koolguy1337_5237-11-1520640818" pos="17.469999 1.83 2.86" scale="0.6 0.6 1" xdir="0.978893 0 0.204373" zdir="-0.204373 0 0.978893"/>
+  <Object collision_id="plane" id="plane" js_id="koolguy1337_5237-12-1520640876" pos="17.48 1.83 2.85" scale="1 0.6 1" xdir="0.981627 0 0.190809" zdir="-0.190809 0 0.981627"/>
+  <Light js_id="A-2-1515907209" light_cone_angle="0" light_cone_exponent="1" light_intensity="4" light_range="10" pos="-4 4 8" xdir="0.998513 0 0.054523" ydir="-0.052766 0.251788 0.966343" zdir="-0.013728 -0.967782 0.251413"/>
+  <Light js_id="A-2-1516088412" light_cone_angle="0" light_cone_exponent="1" light_intensity="8" light_range="10" pos="-19 3.5 8.7" xdir="0.520021 -0 -0.854153" ydir="0.852635 -0.059596 0.519097" zdir="-0.050904 -0.998223 -0.030991"/>
+  <Light col="#0000ff" js_id="A-3-1516088479" light_cone_angle="0" light_cone_exponent="1" light_intensity="15" light_range="10" pos="8 4.3 7.5" xdir="0.037798 0 0.999286" ydir="-0.998457 0.040713 0.037767" zdir="-0.040684 -0.999171 0.001539"/>
+  <Light col="#800080" js_id="A-4-1516088508" light_cone_angle="0" light_cone_exponent="1" light_intensity="15" light_range="10" pos="22.4 4 8.3" xdir="-0.042158 0 -0.999111" ydir="0.995558 -0.084258 -0.042008" zdir="-0.084183 -0.996444 0.003552"/>
+  <Light js_id="A-5-1516088533" light_cone_angle="0" light_cone_exponent="1" light_intensity="8" light_range="10" pos="23 4 2" xdir="-0.137725 -0 -0.990471" ydir="0.990433 -0.008727 -0.13772" zdir="-0.008644 -0.999962 0.001202"/>
+ </Room>
+</FireBoxRoom>
+-->
+<script src="https://web.janusxr.org/1.5.19/janusweb.js"></script>
+<script>
+elation.janusweb.init({
+        url: document.location.href,});
+</script>
+</body>
+</html>
