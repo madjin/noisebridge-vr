@@ -21,6 +21,7 @@ Digital twin of [Noisebridge](https://github.com/noisebridge) converted into a m
 - JanusXR
   - https://madjin.github.io/noisebridge-vr/ - Hosted on Github pagse
   - https://noisebridge.on.fleek.co/ - Hosted on IPFS
+  - https://noisebridge.makersdistrict.eth.link/ - Hosted on IPFS and ENS
 - Hubs
   - https://hubs.mozilla.com/N5MWUrj/noisebridge - Demo world
   - https://hubs.mozilla.com/cloud - Deploy your own Hubs cloud
