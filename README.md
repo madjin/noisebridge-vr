@@ -23,7 +23,7 @@ Digital twin of [Noisebridge](https://github.com/noisebridge) converted into a m
   - https://noisebridge.on.fleek.co/ - Hosted on IPFS
   - https://noisebridge.makersdistrict.eth.link/ - Hosted on IPFS and ENS
 - Hubs
-  - https://hubs.mozilla.com/N5MWUrj/noisebridge - Demo world
+  - https://hubs.mozilla.com/scenes/AgLaC6X - Demo world
   - https://hubs.mozilla.com/cloud - Deploy your own Hubs cloud
 - VRChat
   - https://vrchat.com/i/piper-undiesspin-65943 - Not public yet, run VRChat atleast once to use launcher
