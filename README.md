@@ -40,3 +40,9 @@ Digital twin of [Noisebridge](https://github.com/noisebridge) converted into a m
 
 Original scan data kindly provided by Simbridge: https://gitlab.com/unityversity/simbridge/-/tree/master/Assets/Simbridge/Models
 Download the optimized model on Sketchfab: https://sketchfab.com/3d-models/noisebridge-06cdccd10c77474bb2183ecf83a0c720
+
+Check out these other virtual hackerspaces!
+
+- https://github.com/madjin/hacklab-vr
+- https://github.com/madjin/nsl-vr
+
