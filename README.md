@@ -22,11 +22,15 @@ Digital twin of [Noisebridge](https://github.com/noisebridge) converted into a m
   - https://madjin.github.io/noisebridge-vr/ - Hosted on Github pagse
   - https://noisebridge.on.fleek.co/ - Hosted on IPFS
   - https://noisebridge.makersdistrict.eth.link/ - Hosted on IPFS and ENS
-- Hubs
+- Mozilla Hubs
   - https://hubs.mozilla.com/scenes/AgLaC6X - Demo world
   - https://hubs.mozilla.com/cloud - Deploy your own Hubs cloud
 - VRChat
   - https://vrchat.com/i/piper-undiesspin-65943 - Not public yet, run VRChat atleast once to use launcher
+- Sketchfab
+  - https://sketchfab.com/3d-models/noisebridge-06cdccd10c77474bb2183ecf83a0c720
+- Hyperfy.io
+  - https://hyperfy.io/noisebridge
 
 ---
 
